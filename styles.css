@@ -6238,3 +6238,6 @@ a.bodyLinks:hover {
 #subfooter {
 	font-size: 11pt;
 }
+.navbar{
+	box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
+}
