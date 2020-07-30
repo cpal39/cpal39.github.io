@@ -6100,12 +6100,16 @@ a.bodyLinks:hover {
 	font-family: "Roboto", sans-serif;
 }
 
-.col-lg-3 {
-	margin-bottom: 5px;
+.col-lg-3, .col-lg-6 {
+	margin-bottom: 15px;
 }
 
-.card {
+.card-project {
 	background-color: blue;
+}
+
+.card-work {
+	background-color: #1a1b1c;
 }
 
 .card-img-top {
@@ -6118,14 +6122,19 @@ a.bodyLinks:hover {
 	font-weight: normal;
 }
 
-.card .btn {
+.card .btn-project {
 	background-color: #1a1b1c;
 	color: white;
 }
 
-.card .btn:hover {
+.card .btn-project:hover, .card .btn-work:hover {
 	background-color: white;
 	color: blue;
+}
+
+.card .btn-work {
+	background-color: blue;
+	color: white;
 }
 
 .modal-header {
