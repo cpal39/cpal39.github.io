@@ -1,0 +1,203 @@
+* {
+	box-sizing: border-box;
+}
+
+body,
+html {
+	background-color: rgba(0,0,0,1);
+	/* background-image: url("birdUp.jpg");
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: repeat; */
+	font-family: "Roboto", sans-serif;
+	font-size: 16pt;
+	background-clip: border-box;
+}
+
+.navbar-dark{
+	text-align: right;
+}
+
+.bg-blue{
+	background-color: blue;
+}
+
+.bg-black{
+	background-color: black;
+}
+
+.divContents {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding: 15px;
+}
+
+.modal-body {
+	text-align: center;
+}
+
+a.bodyLinks {
+	color: magenta;
+}
+
+a.bodyLinks:hover {
+	color: cyan;
+	text-decoration: none;
+}
+
+.btn {
+	background-color: blue;
+	color: white;
+}
+
+.btn:hover {
+	background-color: white;
+	color: blue;
+}
+
+.buttonLabel {
+	font-family: "Roboto", sans-serif;
+}
+
+.col-lg-3, .col-lg-6 {
+	margin-bottom: 15px;
+}
+
+.card-project {
+	background-color: blue;
+}
+
+.card-work {
+	background-color: #1a1b1c;
+}
+
+.card-img-top {
+	width: 100%;
+	height: 10rem;
+  	object-fit: cover;
+}
+
+.card-title {
+	font-weight: normal;
+}
+
+.card .btn-project {
+	background-color: #1a1b1c;
+	color: white;
+}
+
+.card .btn-project:hover, .card .btn-work:hover {
+	background-color: white;
+	color: blue;
+}
+
+.card .btn-work {
+	background-color: blue;
+	color: white;
+}
+
+.modal-header {
+  	background-color: blue;
+  	color: white;
+}
+
+.modal-content {
+  	background-color: #1a1b1c;
+  	color: white;
+}
+
+
+#titlePageDiv {
+	width: 100%;
+	background-image: url("../media/birdUp.jpg");
+	background-size: cover;
+	background-position: top;
+  	min-height: calc(100vh - 3.5rem);
+	overflow: hidden;
+}
+
+#titlePage {
+	background-color: rgba(0,0,0,0.5);
+	padding: 15px;
+	color: white;
+	text-align: center;
+  	min-height: calc(100vh - 3.5rem);
+	overflow: hidden;
+	vertical-align: middle;
+	display: flex;
+	flex-direction: column;
+}
+
+#titlePageBottom {
+	margin-top: auto;
+	padding-bottom: 15px;
+}
+
+#chris {
+	color: magenta;
+}
+
+#paldino {
+	color: cyan;
+}
+
+#title {
+	color: magenta;
+	font-size: 5rem;
+}
+
+@media (max-width: 1024px){
+	#title {
+		font-size: 4rem;
+	}
+}
+
+#subtitle {
+	color: white;
+	font-size: 3rem;
+}
+
+@media (max-width: 1024px){
+	#subtitle {
+		font-size: 2rem;
+	}
+}
+
+#buttonLeft:hover {
+	background-color: blue;
+}
+
+#buttonRight:hover {
+	background-color: blue;
+}
+
+#aboutMeDiv, #skillsDiv, #projectsDiv {
+	width: 100%;
+	background-color: #1a1b1c;
+}
+
+#aboutMe, #skills, #projects {
+	color: white;
+}
+
+#educationDiv, #workDiv, #footerDiv {
+	width: 100%;
+	background-color: blue;
+}
+
+#education, #work, #footer {
+	color: white;
+}
+
+#footer {
+	padding: 15px;
+	font-size: 11pt;
+}
+
+#subfooter {
+	font-size: 11pt;
+}
+.navbar{
+	box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
+}
